@@ -39,7 +39,7 @@ export default class FecReactFieldCustomizer
   @override
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
     // Use this method to perform your custom cell rendering.
-    const text: string = `${this.properties.sampleText}: ${event.fieldValue}`;
+    const text: string = ` ${event.fieldValue}`;
 
     const fecReact: React.ReactElement<{}> =
       React.createElement(FecReact, { text } as IFecReactProps);
