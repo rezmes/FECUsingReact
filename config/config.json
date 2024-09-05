@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fec-react-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/fecReact/FecReactFieldCustomizer.js",
+          "manifest": "./src/extensions/fecReact/FecReactFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FecReactFieldCustomizerStrings": "lib/extensions/fecReact/loc/{locale}.js"
+  }
+}

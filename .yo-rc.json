@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "fec-using-react",
+    "libraryId": "451ad46f-710a-421e-9b80-bc60ed766f51",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}
